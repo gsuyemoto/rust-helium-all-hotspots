@@ -1,0 +1,11 @@
+[package]
+name = "helium-api-hotspots"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+pretty_env_logger = "0.4.0"
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
